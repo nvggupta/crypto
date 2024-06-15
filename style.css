@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container
+{
+    height: 100vh;
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+ 
+    margin-top: 20px;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20PX;
+
+    width: 25%;
+    height: fit-content;
+    
+}
+.logo img{
+    height: 30PX;
+    cursor: pointer;
+}
+.logo h1{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+a{
+    margin-right: 50px;
+    width: 10%;
+    height: 50px;
+}
+#search 
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    margin-right: 50px;
+}
+#view-Page{
+    min-height: 80vh;
+    background-color: rgb(219, 233, 237);
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    border: 1px solid red;
+}
+.details
+{
+    width: 50%;
+    min-height: 80vh;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.images
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images img
+{
+
+    height: 58%;
+}
+footer{
+    position: relative;
+    bottom: 150px;
+}
+h1 ,h3{
+    text-align: center;
+    color: goldenrod;
+    
+}
+.cards
+{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    
+}
+.card{
+    height: 80px;
+    min-width: 25%;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding-left: 25px;
+    display: flex;
+    align-content: center;
+    gap: 20px;
+    
+}
+.card-detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+.card img{
+    height: 50px;
+    margin-top: 15px;
+    mix-blend-mode: color-burn;
+}
+#Search-view
+{
+    min-height: 80vh;
+    background-color: rgb(219, 233, 237);
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input{
+    padding-left: 15px;
+    padding: 15px;
+    width: 300px;
+    margin-top: 25px;
+}
+#coin-Search{
+    padding: 15px;
+    width: 100px;
+}
+.coin-cards
+{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.coin-result
+{
+    margin-top: 10px;
+    background: whitesmoke;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.info
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    
+
+}
+.info img{
+    height: 40px;
+    mix-blend-mode: color-burn;
+}
+#info-section{
+    min-height: 100vh;
+    background-color: rgb(219, 233, 237);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    gap: 200px;
+}
+aside{
+    width: 30%;
+   
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 25px;
+    align-items: center;
+}
+aside img{
+    height: 250px;
+    width: 250px;
+    mix-blend-mode: color-burn;
+}
+#details-coin{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+.prices
+{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+#info-name
+{
+    color: goldenrod;
+    font-size: 35px;
+}
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border: 1px solid red;
+    margin-bottom: 250px;
+}
+.footer a img{
+    height: 10px;
+}
