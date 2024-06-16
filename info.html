@@ -1,52 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <nav class="nav">
-        <div class="logo">
-          <img src="./assests/logo.png" alt="" />
-          <h1>Crypto View</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="nav">
+      <div class="logo">
+        <img src="./assests/logo.png" alt="Logo">
+        <h1>Crypto View</h1>
+      </div>
+      <a href="search.html"><button id="search">Search</button></a>
+    </nav>
+    <section id="info-section">
+      <aside>
+        <img src="./assests/download.png" alt="Logo">
+        <h2>Price History</h2>
+      </aside>
+      <section id="details-coin">
+        <span id="info-name"></span>
+        <div class="prices">
+          <span id="rupee"></span>
+          <span id="dollor"></span>
+          <span id="euro"></span>
+          <span id="pound"></span>
         </div>
-        <a href="search.html"><button id="search">Search</button></a>
-      </nav>
-      <section id="info-section">
-        <aside>
-          <img src="./assests/download.png" alt="" />
-          <h2>Price History</h2>
-        </aside>
-        <section id="details-coin">
-          <span id="info-name">HarryPotterObamaSonic10Inu (ETH) (BITCOIN)</span>
-          <div class="prices">
-            <span id="rupee">₹ 9.45</span>
-            <span id="dollor">$ 0.113097</span>
-            <span id="euro">€ 0.105525</span>
-            <span id="pound">£ 0.089249</span>
-          </div>
-          <div class="desc">
-            <h4>Description</h4>
-            <p class="description" id="description">
-              HarryPotterObamaSonic10Inu (Ticker: BITCOIN) is a endgame of
-              crypto-assets (0 Tax). BITCOIN incentivizes the creation of novel
-              and entertaining meme content. With ownership renounced and
-              Liquidity locked, our robust growing community has taken the lead;
-              we have successfully completed a full audit, an NFT collection,
-              and are exploring partnerships with other tokens in the space, a
-              one-of-a -kind website, and one-of-a-kind merchandise and
-              ecommerce site in the works based on the legendary meme that
-              inspired BITCOIN's creation. Our goal is to create an ecosystem
-              for active community members to meet, collaborate, and share our
-              rich lore (the archive of our token's storied history) with the
-              world.
-            </p>
-          </div>
-        </section>
+        <div class="desc">
+          <h4>Description</h4>
+          <p class="description" id="description"></p>
+        </div>
       </section>
-    </div>
-  </body>
+    </section>
+  </div>
+  <script src="info.js"></script>
+</body>
 </html>
